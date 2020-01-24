@@ -1,7 +1,6 @@
 # Vim basics
 ## Modes
 * Insert mode
-* Append mode
 * Visual Mode
 
 ### Visual Mode:
