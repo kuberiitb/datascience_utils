@@ -10,7 +10,7 @@ inputTrx = [json.loads(x) for x in gzip.open( resultFile )]
 
 # writing to csv file
 headerDict = OrderedDict([(x, None) for x in 'col1,col2,col3'.split(',')])
-with open('test_big.csv','wb') as fout:
+with open('test_big.csv','w') as fout:
     dw = csv.DictWriter(fout, delimiter=',',fieldnames=headerDict, quoting =csv.QUOTE_ALL)
     dw.writeheader()
         for item in inputList:
