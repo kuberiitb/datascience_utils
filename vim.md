@@ -3,6 +3,7 @@
 * Insert mode
 * Visual Mode
 
+
 ### Visual Mode:
 1. v *characterwise-visual*
     `small v` start Visual mode per character.
